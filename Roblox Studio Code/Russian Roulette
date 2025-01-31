@@ -1,6 +1,6 @@
-while i<7, do
-  i = i + 1
-  if math.random(1, 6) == 1 then
-    game:ClearAllChildren()
-  end
+while i<7  do
+	i = i + 1
+	if math.random(1, 6) == 1 then
+		game:ClearAllChildren()
+	end
 end
