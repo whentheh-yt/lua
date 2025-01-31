@@ -1,6 +1,15 @@
+local i = 0
 while i<7  do
 	i = i + 1
 	if math.random(1, 6) == 1 then
-		game:ClearAllChildren()
+		print("boom")
+		workspace:ClearAllChildren()
+		game.Players:ClearAllChildren()
+		game.ReplicatedStorage:ClearAllChildren()
+		game.ServerScriptService:ClearAllChildren()
+		game.ServerStorage:ClearAllChildren()
+		game.StarterGui:ClearAllChildren()
+		game.StarterPlayer.StarterCharacterScripts:ClearAllChildren()
+		game.StarterPlayer.StarterPlayerScripts:ClearAllChildren()
 	end
 end
